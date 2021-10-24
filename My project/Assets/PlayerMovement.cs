@@ -17,6 +17,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+            moveSpeed = 10f;
+        else
+            moveSpeed = 5f;
+        dirX = Input.GetAxis("Horizontal") * moveSpeed;
+
+
+
+
+
+
+
         if (Input.GetAxis("Horizontal") != 0)
         {
             animator.SetFloat("moveSpeed", Mathf.Abs(Input.GetAxis("Horizontal")));
