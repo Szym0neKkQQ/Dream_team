@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bieganie
+  m_Name: HusarBreathig
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,14 +20,14 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 4944230376442633554, guid: 65aa5903e8285ee479b2a7d242eff8af, type: 3}
-    - time: 0.2857143
-      value: {fileID: -2274363484027164459, guid: 65aa5903e8285ee479b2a7d242eff8af, type: 3}
+      value: {fileID: 5012251146154769936, guid: 5d0684a0fb664df4eb3779245d029fd7, type: 3}
+    - time: 0.5
+      value: {fileID: -4246947682400685006, guid: 5d0684a0fb664df4eb3779245d029fd7, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 7
+  m_SampleRate: 2
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -42,14 +42,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 4944230376442633554, guid: 65aa5903e8285ee479b2a7d242eff8af, type: 3}
-    - {fileID: -2274363484027164459, guid: 65aa5903e8285ee479b2a7d242eff8af, type: 3}
+    - {fileID: 5012251146154769936, guid: 5d0684a0fb664df4eb3779245d029fd7, type: 3}
+    - {fileID: -4246947682400685006, guid: 5d0684a0fb664df4eb3779245d029fd7, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.42857146
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
     public float moveSpeed = 5f;
-
+    float dirX;
     public Rigidbody2D rb;
 
     Vector2 movement;
@@ -40,7 +40,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        transform.position += new Vector3(Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed, Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed, 0);
+       
+
+            transform.position += new Vector3(Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed, Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed, 0);
     }
 
 
