@@ -8,17 +8,12 @@ public class Quit : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("Escape key was pressed");
-        }
 
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            Debug.Log("Escape key was released");
-        }
+            Destroy(gameObject);
+            Application.Quit();
 
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Debug.Log("Escape key is being pressed");
+
+
         }
     }
 }

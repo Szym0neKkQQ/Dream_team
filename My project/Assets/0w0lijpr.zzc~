@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Player Respawn");
 
             Destroy(gameObject);
-       
+            Application.Quit();
         }
     }
 
