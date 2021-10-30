@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ork
   - Block
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -23,12 +23,6 @@ public class PlayerMovement : MonoBehaviour
             moveSpeed = 5f;
         dirX = Input.GetAxis("Horizontal") * moveSpeed;
 
-
-
-
-
-
-
         if (Input.GetAxis("Horizontal") != 0)
         {
             animator.SetFloat("moveSpeed", Mathf.Abs(Input.GetAxis("Horizontal")));
