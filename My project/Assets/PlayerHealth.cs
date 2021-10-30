@@ -2,24 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHealth : MonoBehaviour{
-    private float health = 100f;
+public class PlayerHealth : MonoBehaviour
+{
+    private float health = 0f;
     [SerializeField] private float maxHealth = 100f;
 
-    private void Start(){
+    private void Start()
+    {
         health = maxHealth;
     }
 
-    public void UpdateHealth(float mod){
-    health += mod;
+    public void UpdateHealth(float mod)
+    {
+        health += mod;
 
-    if(health > maxHealth) {
-        health = maxHealth;
-    }else if (health <= 0){
-        health = 0f;
-            Destroy(gameObject);
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        else if (health <= 0)
+        {
+            health = 0f;
+
             Debug.Log("Player Respawn");
-    }
+
+            Destroy(gameObject);
+            Application.Quit();
+        }
     }
 
 }
