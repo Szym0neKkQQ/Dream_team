@@ -25,10 +25,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") != 0)
         {
+            
             animator.SetFloat("moveSpeed", Mathf.Abs(Input.GetAxis("Horizontal")));
         }
         else if (Input.GetAxis("Vertical") != 0)
         {
+            
             animator.SetFloat("moveSpeed", Mathf.Abs(Input.GetAxis("Vertical")));
         }
         else
