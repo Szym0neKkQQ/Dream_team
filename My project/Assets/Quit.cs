@@ -8,12 +8,8 @@ public class Quit : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-
             Destroy(gameObject);
             Application.Quit();
-
-
-
         }
     }
 }
